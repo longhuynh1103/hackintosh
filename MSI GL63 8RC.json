@@ -1,0 +1,170 @@
+{
+    "Motherboard": {
+        "Motherboard Name": "MSI GL63 8RC",
+        "Motherboard Chipset": "Intel Cannon Point HM370",
+        "Platform": "Laptop",
+        "CPU Configuration": "01"
+    },
+    "CPU": {
+        "CPU Manufacturer": "Intel",
+        "Processor Name": "HexaCore Intel Core i7-8750H",
+        "CPU Codename": "Coffee Lake-H",
+        "CPU Cores": "06",
+        "Instruction Set": "x86, x86-64, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, FMA, AES"
+    },
+    "GPU": {
+        "nVIDIA GeForce GTX 1050 (MSI)": {
+            "Manufacturer": "NVIDIA",
+            "GPU Codename": "GP107M",
+            "Device ID": "10DE-1C8D",
+            "Device Type": "Discrete GPU",
+            "Memory Size": "4 GB"
+        },
+        "Intel Coffee Lake-H GT2 - Integrated Graphics Controller": {
+            "Manufacturer": "Intel",
+            "GPU Codename": "Coffee Lake-H GT2",
+            "Device ID": "8086-3E9B",
+            "Device Type": "Integrated GPU",
+            "Memory Size": "Unknown"
+        }
+    },
+    "Network": {
+        "Atheros AR8171/8175 PCI-E Gigabit Ethernet Controller": {
+            "Connection Name": "Ethernet",
+            "Bus Type": "PCI",
+            "Device ID": "1969-10A1"
+        },
+        "Intel Wireless-AC 9462 Wireless Network Adapter": {
+            "Connection Name": "WiFi",
+            "Bus Type": "PCI",
+            "Device ID": "8086-A370"
+        }
+    },
+    "Storage": {
+        "Storage Controllers": {
+            "Standard SATA AHCI Controller": {
+                "Bus Type": "PCI",
+                "Device ID": "8086-A353",
+                "Device Description": "Intel Cannon Point PCH - SATA AHCI Controller (Mobile) [B0]"
+            }
+        },
+        "Disk Drives": {
+            "KINGSTON RBUSNS8180S3128GJ (50026B7682524102)": {
+                "Controller": "Unknown",
+                "Interface": "SATA-III"
+            },
+            "WDC WD10SPZX-17Z10T1 (WD-WXC1A988HTH4)": {
+                "Controller": "Unknown",
+                "Interface": "SATA-III"
+            }
+        }
+    },
+    "Audio": {
+        "Realtek(R) Audio": {
+            "Bus Type": "HDAUDIO",
+            "Codec ID": "10EC-0892",
+            "Audio Endpoints": [
+                "Microphone",
+                "Speakers"
+            ]
+        },
+        "Intel(R) Display Audio": {
+            "Bus Type": "HDAUDIO",
+            "Codec ID": "8086-280B"
+        },
+        "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)": {
+            "Bus Type": "USB",
+            "USB ID": "0955-9000"
+        }
+    },
+    "USB": {
+        "USB Controllers": {
+            "Intel(R) USB 3.1 eXtensible Host Controller - 1.10 (Microsoft)": {
+                "Bus Type": "PCI",
+                "Device ID": "8086-A36D"
+            }
+        },
+        "USB Devices": {
+            "Twin USB JoysticK": {
+                "Device Description": "Twin USB JoysticK",
+                "Device Class": "03 / 01 (Human Interface Device)",
+                "Device ID": "0810-0001",
+                "Revision": "0200h"
+            },
+            "SINOWEALTH Game Mouse": {
+                "Device Description": "SINOWEALTH Game Mouse",
+                "Device Class": "03 / 01 (Human Interface Device)",
+                "Device ID": "258A-1007",
+                "Revision": "0100h"
+            },
+            "Realtek USB 2.0 Card Reader": {
+                "Device Description": "Realtek USB 2.0 Card Reader",
+                "Device Class": "FF / FF",
+                "Device ID": "0BDA-0129",
+                "Revision": "3960h"
+            },
+            "USB Input Device": {
+                "Device Description": "USB Input Device",
+                "Device Class": "03 / 00 (Human Interface Device)",
+                "Device ID": "1770-FF00",
+                "Revision": "0110h"
+            },
+            "HD Webcam": {
+                "Device Description": "HD Webcam",
+                "Device Class": "EF / 02 (Interface Association Descriptor)",
+                "Device ID": "5986-211B",
+                "Revision": "0301h"
+            },
+            "Intel(R) Wireless Bluetooth(R)": {
+                "Device Description": "Intel(R) Wireless Bluetooth(R)",
+                "Device Class": "E0 / 01 (Bluetooth)",
+                "Device ID": "8087-0AAA",
+                "Revision": "0002h"
+            }
+        }
+    },
+    "Input": {
+        "Radio Switch Device": {
+            "Bus Type": "ACPI",
+            "Device ID": "ENE-0110"
+        },
+        "SINOWEALTH Game Mouse": {
+            "Bus Type": "USB",
+            "Device ID": "258A-1007"
+        },
+        "USB Input Device": {
+            "Bus Type": "USB",
+            "Device ID": "1770-FF00"
+        },
+        "Twin USB JoysticK": {
+            "Bus Type": "USB",
+            "Device ID": "0810-0001"
+        },
+        "Standard PS/2 Keyboard": {
+            "Bus Type": "ACPI",
+            "Device ID": "MSI-0007"
+        },
+        "Synaptics SMBus TouchPad": {
+            "Bus Type": "ACPI",
+            "Device ID": "SYN-1509"
+        }
+    },
+    "Bluetooth": {
+        "Intel(R) Wireless Bluetooth(R)": {
+            "Device ID": "8087-0AAA",
+            "Revision": "0002"
+        }
+    },
+    "SD Controller": {
+        "Device Description": "Realtek USB 2.0 Card Reader",
+        "Bus Type": "USB",
+        "Device ID": "0BDA-0129"
+    },
+    "Compatibility": {
+        "macOS Version": {
+            "Max Version": 24,
+            "Min Version": 17
+        },
+        "Unsupported Devices": []
+    }
+}
